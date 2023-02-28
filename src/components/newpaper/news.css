@@ -1,0 +1,46 @@
+.news-heading {
+  text-align: center;
+}
+.news-heading h1 {
+  font-size: 2.5em;
+  color: #115231;
+  margin-bottom: -0.3em;
+}
+.news-body {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+.news {
+  position: relative;
+  border: 1px solid red;
+  margin: 0 2em;
+  width: 20%;
+  height: 300px;
+  padding: 0.5em 1em;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+.news img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.news-after {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0 2em;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

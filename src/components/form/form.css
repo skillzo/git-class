@@ -1,0 +1,31 @@
+.form-container {
+  border: 1px solid black;
+  height: 60vh;
+  margin-top: 2em;
+  padding: 2em 5em;
+}
+.form-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-map img {
+  height: 400px;
+  width: 100%;
+}
+.form {
+  border: 1px solid black;
+  width: 60%;
+  height: 40vh;
+}
+.form-map {
+  width: 30%;
+}
+.form input {
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.form-input {
+  display: flex;
+}

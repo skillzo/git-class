@@ -1,0 +1,90 @@
+.header-body {
+  display: flex;
+  margin-top: 3em;
+  position: relative;
+}
+.header-text {
+  width: 45%;
+}
+.header-maintext {
+  width: 70%;
+  margin-top: 8em;
+  margin-left: 5em;
+}
+.header-maintext h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: -3.5em;
+}
+#light.header-maintext {
+  color: black;
+}
+#dark.header-maintext {
+  color: white;
+}
+#light.header-maintext p {
+  color: rgba(0, 0, 0, 0.7);
+}
+#dark.header-maintext p {
+  color: rgba(255, 255, 255, 0.7);
+}
+#light.header-maintext h3 {
+  color: #147814;
+}
+#dark.header-maintext h3 {
+  color: #4ccf4c;
+}
+.header-maintext h2 {
+  font-size: 3.5em;
+  margin-top: 2em;
+}
+.header-maintext p {
+  margin-top: 2em;
+}
+#light.header-maintext span {
+  color: rgb(109, 26, 26);
+}
+#dark.header-maintext span {
+  color: rgb(165, 42, 42);
+}
+
+.header-img {
+  width: 60%;
+  padding: 2em;
+  background-color: transparent;
+  z-index: 1;
+}
+.header-img img {
+  width: 100%;
+  height: 70vh;
+  object-fit: fill;
+  border-radius: 5px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 15px 5px black;
+}
+.header-button {
+  margin-left: 5em;
+  margin-top: 3em;
+}
+.shop-now {
+  margin-right: 1em;
+}
+
+@media (max-width: 480px) {
+  .header-body {
+    flex-direction: column-reverse;
+    padding: -1em;
+  }
+  .header-text {
+    width: 100%;
+    margin-top: -5em;
+  }
+  .header-img {
+    width: 100%;
+    padding: 1em;
+  }
+  .header-img img {
+    height: 400px;
+    width: 100%;
+  }
+}

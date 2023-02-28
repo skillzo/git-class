@@ -1,0 +1,47 @@
+.pick-container {
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+.pick-container-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+#light.pick-container-image img {
+  opacity: 0.3;
+}
+#dark.pick-container-image img {
+  opacity: 0.4;
+}
+.pick-heading {
+  position: absolute;
+  color: white;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 1.5em;
+}
+.pick-heading h6 {
+  color: white;
+  font-size: 0.8em;
+  margin-top: -2em;
+}
+.pick-heading h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: -1em;
+}
+.pick-heading h1 {
+  font-size: 4em;
+}
+
+@media (max-width:480px){
+  .pick-container{
+    font-size: 0.5em;
+  }
+  
+}
